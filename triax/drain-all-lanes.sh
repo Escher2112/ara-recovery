@@ -11,7 +11,7 @@
 # Run by the SessionStart hook on every boot, and usable by hand:
 #   "go check for drops"  ->  bash drain-all-lanes.sh
 set -u
-REPO="/Users/escher/Programming-Stuff/Triax-Memory"
+REPO="/Users/escher/triax-memory"
 NODE="/opt/homebrew/bin/node"
 LOCK="/tmp/triax-drain.lock"
 
