@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/usr/bin/env python3 /Users/escher/.grok-ara/hooks/speak-ara.py",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}

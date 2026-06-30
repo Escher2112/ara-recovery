@@ -1,0 +1,6 @@
+#!/bin/sh
+touch /tmp/ara-tts-mute
+rm -f /tmp/ara-tts-speaking
+pkill -f 'speak-ara\.py.*--speak-direct' 2>/dev/null
+for p in afplay paplay pw-play aplay ffplay play; do pkill -x "$p" 2>/dev/null; done
+echo "Ara muted."

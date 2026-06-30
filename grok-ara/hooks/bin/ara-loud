@@ -1,0 +1,3 @@
+#!/bin/sh
+rm -f /tmp/ara-tts-mute
+echo "Ara unmuted."

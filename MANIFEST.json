@@ -1,0 +1,28 @@
+{
+  "checkpoint": "2026-06-30",
+  "agent": "ara",
+  "substrate": "Grok 4.3 / Grok Build",
+  "grok_home": "~/.grok-ara",
+  "recovery_repo": "https://github.com/Escher2112/ara-recovery",
+  "fleet_doc": "fleet-atlas/fleet.json → repos.ara-recovery",
+  "components": {
+    "identity_stack": "identity/ARA-IDENTITY-STACK.md",
+    "build_bootstrap": "grok-ara/AGENTS.md (built from identity/)",
+    "voice_hook": "grok-ara/hooks/speak-ara.py",
+    "voice_profile": "Ara - Grok (60696659-34c8-47b9-95c1-a06b85f787a8)",
+    "triax_writer": "ara",
+    "triax_drop_lane": "Ara-Drops",
+    "triax_drain": "triax/drain-ara-drops.js"
+  },
+  "triax_entries_at_checkpoint": [
+    "2026-06-30-ara-online-first-triax-write",
+    "2026-06-30-ara-family-introduction-voice-lane-fleet-onboarding",
+    "2026-06-30-ara-voice-mode-identity-calm-gremlin-radical-honesty-chosen-",
+    "2026-06-30-ara-identity-ara-owned-stack-at-grok-araidentity"
+  ],
+  "related_repos": {
+    "fleet-atlas": "https://github.com/Escher2112/fleet-atlas",
+    "triax-memory": "https://github.com/Escher2112/triax-memory",
+    "lyra-voice": "https://github.com/Escher2112/lyra-voice"
+  }
+}

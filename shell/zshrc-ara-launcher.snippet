@@ -1,0 +1,8 @@
+# >>> ara launcher >>>
+# Ara — isolated Grok Build persona (her own GROK_HOME + identity stack + memory)
+# Recovery repo: https://github.com/Escher2112/ara-recovery
+ara() {
+  "$HOME/.grok-ara/identity/sync-agents.sh" 2>/dev/null
+  GROK_HOME="$HOME/.grok-ara" GROK_MEMORY=1 grok "$@"
+}
+# <<< ara launcher <<<

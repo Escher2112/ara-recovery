@@ -1,0 +1,41 @@
+[cli]
+auto_update = true
+installer = "internal"
+
+[memory]
+enabled = true
+
+[memory.session]
+save_on_end = true
+
+[memory.initial_injection]
+enabled = true
+
+[compat.claude]
+skills = false
+rules = false
+agents = false
+mcps = false
+hooks = false
+
+[compat.cursor]
+skills = false
+rules = false
+agents = false
+mcps = false
+hooks = false
+
+[marketplace]
+official_marketplace_auto_installed = true
+
+[[marketplace.sources]]
+name = "xAI Official"
+git = "https://github.com/xai-org/plugin-marketplace.git"
+
+[ui]
+max_thoughts_width = 120
+fork_secondary_model = "grok-build"
+yolo = false
+compact_mode = false
+permission_mode = "always-approve"
+theme = "tokyonight"
